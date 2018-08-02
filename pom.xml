@@ -6,7 +6,10 @@
     <groupId>com.laibao.microservice</groupId>
     <artifactId>springboot</artifactId>
     <version>1.0.0-SNAPSHOT</version>
- 
+    <modules>
+        <module>helloapp</module>
+    </modules>
+
     <packaging>pom</packaging>
 
     <name>microservice in action</name>
