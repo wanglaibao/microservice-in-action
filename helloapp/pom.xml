@@ -13,5 +13,17 @@
     <artifactId>hello-app</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox.version}</version>
+        </dependency>
+    </dependencies>
 </project>
